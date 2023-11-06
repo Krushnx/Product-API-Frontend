@@ -1,0 +1,68 @@
+/* Drop down */
+
+.dropdown
+{
+
+  padding: 7px;
+  font-size: 18px;
+  background-color: #ffae00;
+  color: white;
+  border: none;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.dropdown option
+{
+  margin: 2px;
+  border-radius: 10px;
+  padding: 2px;
+  color: black;
+}
+
+.month h2
+{
+  margin: 8px auto;
+  font-family: 'ubuntu';
+
+}
+.month
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    margin: auto;
+    /* width: 100%; */
+  }
+  
+  #customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #customers tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #customers tr:hover {background-color: #ddd;}
+  
+  #customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffae00;
+    color: white;
+  }
